@@ -10,6 +10,28 @@
 
 
 ### Usage
+
 #### Binary Airway Modeling
+Please refer to ```segmentator/airway_segmentator.py```.
+
+#### Airway Anatomical Modeling
+Please refer to ```classifier/airway_classifier.py```.
 
 
+Optionally, you can use the script for a quick start:
+
+```
+python airwayatlas_pipeline.py
+```
+
+#### Airway Signature
+
+<div align=center><img src="figs/example2.png"></div>
+
+The morphological airway signatures can be found in ```features/airway_morph_features.py```.
+
+Optionally, you can use the script for a quick start:
+
+```
+python airwaysign_pipeline.py
+```
