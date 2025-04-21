@@ -10,6 +10,7 @@
 
 
 ### Usage
+<div align=center><img src="figs/example3.png"></div>
 
 #### Binary Airway Modeling
 Please refer to ```segmentator/airway_segmentator.py```.
@@ -35,3 +36,9 @@ Optionally, you can use the script for a quick start:
 ```
 python airwaysign_pipeline.py
 ```
+
+#### Airway BranchingPattern
+
+<div align=center><img src="figs/example4.png"></div>
+
+Please refer to ```branchingpattern/airwaybranchpattern_pipeline.py```.
