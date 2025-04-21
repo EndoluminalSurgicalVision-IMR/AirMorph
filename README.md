@@ -9,13 +9,13 @@
 
 
 
-### Usage
+## Usage
 <div align=center><img src="figs/example3.png"></div>
 
-#### Binary Airway Modeling
+### Binary Airway Modeling
 Please refer to ```segmentator/airway_segmentator.py```.
 
-#### Airway Anatomical Modeling
+### Airway Anatomical Modeling
 Please refer to ```classifier/airway_classifier.py```.
 
 
@@ -25,7 +25,7 @@ Optionally, you can use the script for a quick start:
 python airwayatlas_pipeline.py
 ```
 
-#### Airway Signature
+### Airway Signature
 
 <div align=center><img src="figs/example2.png"></div>
 
@@ -37,8 +37,28 @@ Optionally, you can use the script for a quick start:
 python airwaysign_pipeline.py
 ```
 
-#### Airway BranchingPattern
+### Airway BranchingPattern
 
 <div align=center><img src="figs/example4.png"></div>
 
 Please refer to ```branchingpattern/airwaybranchpattern_pipeline.py```.
+
+
+### Pretraind Model
+The pretrained model could be accessed by this [link](https://drive.google.com/drive/folders/1T6VwUnHSkWzL7ghkImbWTqk6SGB-pan-?usp=sharing)
+
+### Sample Data
+The sample data could be accessed by this [link](https://drive.google.com/drive/folders/1CvkkL_EP1QcgvKiNIt7I_Yypij1ibflq?usp=sharing)
+
+
+## Citation
+If you find this repository or our paper useful, please consider citing our paper:
+
+```bibTex
+@article{zhang2024digitalized,
+  title={A Digitalized Atlas for Pulmonary Airway},
+  author={Zhang, Minghui and Li, Chenyu and Zhang, Hanxiao and Liu, Yaoyu and Gu, Yun},
+  journal={arXiv preprint arXiv:2412.11039},
+  year={2024}
+}
+```
