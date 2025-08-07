@@ -26,3 +26,32 @@ You will see similar log messages as follows:
 ```
 
 ## Data input and output structure
+Data input structure:
+
+```
+project_root/
+├── sample_data/              # Input directory containing patient chest CT scans
+│   ├── patient_01/
+│   │   ├── image.nii.gz      # CT scan file
+```
+
+After the AirwayNet processing is complete, the main results are, by default, saved in the same directory as the input data:
+
+```
+project_root/
+├── sample_data/              # Input directory containing patient chest CT scans
+│   ├── patient_01/
+│   │   ├── image.nii.gz                             # CT scan file
+│   │   ├── airway_bin.nii.gz                        # binary airway structure
+│   │   ├── patient_01_pred_lob.nii.gz               # lobar airway anatomy
+│   │   ├── patient_01_pred_seg.nii.gz               # segmental airway anatomy
+│   │   ├── patient_01_pred_sub.nii.gz               # subsegmental airway anatomy
+```
+
+Meanwhile, the efficient Branching Pattern Analysis can be found in ```branchingpattern/airwaybranchpattern_pipeline.py```. The morphological airway signatures can be found in ```features/airway_morph_features.py```. 
+These are described in detail in the `Method section` with accompanying pseudocode.
+
+## Expected run time
+AirwayNet was deployed and tested on a system with the following hardware configuration: a 12th Gen Intel® Core™ i9-12900KF CPU, 64 GB of system memory, and an NVIDIA RTX 3090 GPU with 24 GB of VRAM. 
+
+The pipeline processes relatively large 3D CT scans (with a typical volume size of approximately 700×512×512) as input and requires about 5–7 minutes per case to complete the entire process.

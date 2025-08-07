@@ -77,7 +77,6 @@ For comprehensive guidance on utilizing the software and analyzing the output, p
 ### AirwayNet: Unified and Fine-grained Evaluation
 <div align=center><img src="figs/example3.png"></div>
 
-
 ### AirwayNet: Efficient Branching Pattern Analysis
 <div align=center><img src="figs/example4.png"></div>
 
