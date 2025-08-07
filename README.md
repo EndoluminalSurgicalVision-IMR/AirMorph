@@ -8,6 +8,7 @@
 
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
+- [Instructions for use and Demo](#instructions-for-use-and-demo)
 
 # System Requirements
 ## Hardware requirements
@@ -30,6 +31,33 @@ SimpleITK
 ```
 
 The full packages with specific version is included in `requirements.txt`
+
+# Installation Guide
+## Install from Github and with Anaconda
+```
+git clone https://github.com/EndoluminalSurgicalVision-IMR/AirMorph
+cd AirMorph
+```
+
+Create the virtual environment with [Anaconda](https://www.anaconda.com/)
+```
+conda create -n airwayatlas python=3.10
+conda activate airwayatlas
+```
+
+Install PyTorch based on your system configuration. For example:
+```
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+```
+
+Then, install the remaining dependencies:
+```
+pip install -r requirements.txt
+```
+
+# Instructions for use and Demo
+## Quick Start
+
 
 
 <!-- > By the Team of Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China
