@@ -10,6 +10,7 @@
 - [Installation Guide](#installation-guide)
 - [Instructions for use and Demo](#instructions-for-use-and-demo)
 
+
 # System Requirements
 ## Hardware requirements
 AirwayNet was deployed and rigorously validated on a Linux workstation operating on Ubuntu 20.04. The hardware configuration includes a 12th Gen Intel® Core™ i9-12900KF CPU, 64 GB system memory, and an NVIDIA RTX 3090 GPU with 24 GB of VRAM.
@@ -69,19 +70,18 @@ This will run the pipeline, enabling users to quickly test and explore the funct
 For comprehensive guidance on utilizing the software and analyzing the output, please refer to the detailed instructions provided in [Detailed_Instruction.md](Instruction_for_use\README.md).
 
 
-
-# Gallery results of AirwayNet
-### Automated Technical Pipeline
+# Gallery of Results
+### AirwayNet: Automated Technical Pipeline
 <div align=center><img src="figs/example1.png"></div>
 
-### Unified and Fine-grained Evaluation
+### AirwayNet: Unified and Fine-grained Evaluation
 <div align=center><img src="figs/example3.png"></div>
 
 
-### Efficient Branching Pattern Analysis
+### AirwayNet: Efficient Branching Pattern Analysis
 <div align=center><img src="figs/example4.png"></div>
 
-### Anatomical Signatures with Clinical Relevance
+### AirwayNet: Anatomical Signatures with Clinical Relevance
 <div align=center><img src="figs/example2.png"></div>
 
 
