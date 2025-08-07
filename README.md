@@ -1,5 +1,5 @@
-# A digitalized atlas for pulmonary airway
-> By the Team of Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China
+# AirwayNet
+<!-- > By the Team of Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China
 
 <div align=center><img src="figs/example1.png"></div>
 
@@ -63,4 +63,4 @@ If you find this repository or our paper useful, please consider citing our pape
   journal={arXiv preprint arXiv:2412.11039},
   year={2024}
 }
-```
+``` -->
