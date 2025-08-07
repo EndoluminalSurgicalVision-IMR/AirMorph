@@ -57,7 +57,16 @@ pip install -r requirements.txt
 
 # Instructions for use and Demo
 ## Quick Start
+We provide a dedicated pipeline wrapper in `airwayatlas_pipeline.py`, which utilizes the `sample_data` directory as the default input folder. For a quick start, simply execute the following command:
 
+```
+python airwayatlas_pipeline.py
+```
+
+This will run the pipeline, enabling users to quickly test and explore the functionality of AirwayNet.
+
+## Step by Step Instruction
+For comprehensive guidance on utilizing the software and analyzing the output, please refer to the detailed instructions provided in [Detailed_Instruction.md](Instruction_for_use\README.md).
 
 
 <!-- > By the Team of Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China
