@@ -1,18 +1,36 @@
 # AirwayNet
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.10%2B-red)](https://pytorch.org/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.5%2B-red)](https://pytorch.org/)
 
 
 `AirwayNet` is a robust, end-to-end deep learning pipeline enabling fully automatic and comprehensive airway anatomical labeling at lobar, segmental, and subsegmental resolutions. To facilitate precise clinical interpretation, we further propose an anatomical signature, quantifying critical morphological airway features—including stenosis, ectasia, tortuosity, divergence, length, and complexity. Additionally, AirwayNet supports efficient automated branching pattern analysis, significantly enhancing bronchoscopic navigation planning and procedural safety.
-
 
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 
 # System Requirements
 ## Hardware requirements
-AirwayNet is deployed 
+AirwayNet was deployed and rigorously validated on a high-performance Linux workstation operating on Ubuntu 20.04. The hardware configuration includes a 12th Gen Intel® Core™ i9-12900KF CPU, 64 GB system memory, and an NVIDIA RTX 3090 GPU with 24 GB of VRAM.
+
+## Software requirements
+### OS Requirements
++ Linux: Ubuntu 20.04
+
+### Python Dependencies
+`AirwayNet` mainly depends on the Python scientific stack.
+
+```
+torch
+pycuda
+monai
+numpy
+SimpleITK
+... ...
+```
+
+The full packages with specific version is included in `requirements.txt`
+
 
 <!-- > By the Team of Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China
 
