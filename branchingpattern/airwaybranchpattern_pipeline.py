@@ -13,7 +13,7 @@ seg_2 = [2, 3, 5, 6, 8, 9, 10, 11, 12, 14, 15, 16]
 SEG_NAME = ['LB1+2', 'LB3', 'LB4', 'LB5', 'LB6', 'LB8', 'LB9', 'LB10', 'RB1',
             'RB2', 'RB3', 'RB4', 'RB5', 'RB6', 'RB7', 'RB8', 'RB9', 'RB10']
 
-CLASS2ANNO = json.load(open('class2anno.json'))["subseg"]
+CLASS2ANNO = json.load(open('configs/class2anno.json'))["subseg"]
 CLASS2ANNO = {int(k): v for k, v in CLASS2ANNO.items()}
 
 blocks_seg = {
@@ -579,7 +579,7 @@ def generate(x, edge, y_sub_new):
     lca = build_lca_matrix(edge, generation)
 
     # Load label mapping from old labels to new labels
-    label_mapping_file = 'label_old2new.json'
+    label_mapping_file = 'models/label_old2new.json'
     with open(label_mapping_file, 'r') as f:
         label_old2new = json.load(f)
     label_new2old = {int(v): int(k) for k, v in label_old2new.items()}
